@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/headline/headline",
+    "pages/partyBuilding/partyBuilding",
+    "pages/personal/personal",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新时代党建",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#3B87FF",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/headline/headline",
+        "text": "党建头条",
+        "iconPath": "/images/headline.png",
+        "selectedIconPath": "/images/headline@active.png"
+      },
+      {
+        "pagePath": "pages/partyBuilding/partyBuilding",
+        "text": "新党建",
+        "iconPath": "/images/partyBuilding.png",
+        "selectedIconPath": "/images/partyBuilding@active.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "/images/personal.png",
+        "selectedIconPath": "/images/personal@active.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "/images/search.png",
+        "selectedIconPath": "/images/search@active.png"
+      }
+    ]
+  }
+}
