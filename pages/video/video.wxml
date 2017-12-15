@@ -1,0 +1,20 @@
+<!--pages/search/search.wxml-->
+<view class="content">
+  <!-- 轮播图 -->
+  <swiper class="mb18" autoplay="true" indicator-dots="true" 
+      indicator-color="#ffffff" indicator-active-color="#fe0100">
+    <swiper-item wx:for='{{swiper}}' wx:key="*this">
+      <image class="swiper" src='{{item.banner}}'></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="video">
+    <text class="title">视频列表</text>  
+    <view class="video-list container">
+      <view class="video-item" wx:for="{{list}}" wx:key="*this">
+        <image class="video-banner" src="{{item.banner}}"></image>
+        <text class="video-title ellipsis">{{item.title}}</text>
+      </view>
+    </view>
+  </view>  
+</view>

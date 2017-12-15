@@ -66,9 +66,10 @@ const wxRequest = (opt, url) => {
   })
 }
 
-const s = {
-  main: (params) => wxRequest(params, "app.main.query.service"),
-  find: (params) => wxRequest(params, "app.index.query.service")
-}
+// const s = {
+//   main: (params) => wxRequest(params, "app.main.query.service"),
+//   find: (params) => wxRequest(params, "app.index.query.service")
+// }
 
+const s = require("./api-mock.js")
 module.exports = s

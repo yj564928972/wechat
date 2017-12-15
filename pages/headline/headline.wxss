@@ -1,11 +1,14 @@
 /* pages/headline.wxss */
 .content{
-  padding: 60rpx;
-  background: #f4f4f4;
+  padding: 24rpx;
 }
 .item{
   position: relative;
-  margin-bottom: 40rpx;
+  background: #fff;
+  padding: 36rpx 20rpx;
+  border-radius: 20rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 8rpx 10rpx 10rpx #ddd;
 }
 .item .banner{
   width: 100%;
@@ -13,8 +16,9 @@
 }
 .item .title{
   position: absolute;
-  top: 40rpx;
-  left: 40rpx;
-  right: 40rpx;
-  height: auto;
+  top: 68rpx;
+  left: 54rpx;
+  right: 54rpx;
+  font-size: 32rpx;
+  color: #fff;
 }

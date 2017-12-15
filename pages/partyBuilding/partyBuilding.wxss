@@ -1,1 +1,96 @@
 /* pages/partyBuilding/partyBuilding.wxss */
+/* 通知栏 */
+.tips{
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  padding: 0 24rpx;
+  background: #fff;
+}
+.tips .icon{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 24rpx;
+}
+.tips text{
+  font-size: 26rpx;
+}
+/* 导航栏 */
+.nav{
+  flex-direction: row;
+  width: 100%;
+  height: 226rpx;
+  padding: 0 26rpx;
+  background: #fff;
+}
+.nav .icon{
+  display: block;
+  width: 82rpx;
+  height: 82rpx;
+  margin: 0 auto 15rpx;
+}
+.nav .title{
+  display: block;
+  font-size: 26rpx;
+}
+/* 新闻中心 */
+.section{
+  background: #fff;
+}
+.section .title{
+  height: 90rpx;
+  border-bottom: 1rpx solid #ccc;
+  padding: 0 26rpx;
+}
+.section_gap{
+  height: 554rpx;
+  padding-left: 26rpx;
+  flex-wrap: wrap;
+  align-items: inherit;
+}
+.scroll-item{
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 90%;
+  height: 184rpx;
+  margin-right: 26rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.scroll-item:nth-of-type(3n){
+  border: none;
+}
+.scroll-item .news-title{
+  display: block;
+  font-size: 30rpx;
+}
+.scroll-item .banner{
+  display: block;
+  width: 210rpx;
+  height: 126rpx;
+  margin-left: 28rpx;
+}
+/* 时代先锋 */
+.times .section_gap{
+  padding: 30rpx 0;
+  height: 700rpx;
+  padding-left: 40rpx;
+}
+.times .times-item{
+  position: relative;
+  width: 90%;
+  height: 700rpx;
+  margin-right: 40rpx;
+}
+.times .banner{
+  position: absolute;
+  width: 100%;
+  height: 700rpx;
+}
+.times .news-title{
+  position: absolute;
+  top: 26rpx;
+  left: 26rpx;
+  right: 26rpx;
+  z-index: 9;
+}

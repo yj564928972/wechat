@@ -1,7 +1,0 @@
-<!--pages/search/search.wxml-->
-<view class="content">
-  <view class="head-search">
-    <image src="/images/temp/search.png" class="head-search-icon"/>
-    <input type="text" class="head-search-input" placeholder="搜索" />
-  </view>
-</view>

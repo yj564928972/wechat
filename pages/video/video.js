@@ -5,14 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    swiper: [],
+    list: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.initData();
+  },
+
+  initData: function(){
+    const that = this
+    let params = {
+      success: res => {
+        that.setData({
+          swiper: res.carousel,
+          list: res.times
+        })
+      }
+    }
+    getApp().request("main")(params)
   },
 
   /**
