@@ -1,2 +1,3 @@
-"# wechat"  git init git add README.md git commit -m "first commit" git remote add origin git@github.com:yj564928972/wechat.git git push -u origin master
-"# wechat" 
+## 微信小程序学习
+
+### 后端数据使用[mock.js](http://mockjs.com)模拟
