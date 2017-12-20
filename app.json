@@ -13,14 +13,14 @@
   },
   "tabBar": {
     "color": "#999999",
-    "selectedColor": "#3B87FF",
+    "selectedColor": "#fe0000",
     "backgroundColor": "#FFF",
     "list": [
       {
         "pagePath": "pages/partyBuilding/partyBuilding",
         "text": "新党建",
-        "iconPath": "/images/partyBuilding.png",
-        "selectedIconPath": "/images/partyBuilding@active.png"
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index@active.png"
       },
       {
         "pagePath": "pages/headline/headline",

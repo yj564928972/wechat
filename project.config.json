@@ -3,13 +3,13 @@
 	"setting": {
 		"urlCheck": false,
 		"es6": true,
-		"postcss": true,
-		"minified": true,
+		"postcss": false,
+		"minified": false,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.7.0",
-	"appid": "touristappid",
+	"appid": "wxce2326159c4fda5a",
 	"projectname": "SmartPartyBuilding",
 	"condition": {
 		"search": {

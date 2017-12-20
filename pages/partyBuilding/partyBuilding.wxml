@@ -9,35 +9,37 @@
   </swiper>
   <!-- 通知栏 -->
   <view class="tips container mb18">
-    <image class="icon" src="/images/headline.png"></image>
+    <image class="icon" src="/images/notice.png"></image>
     <text class="ellipsis">通知：12月25号召开党员大会，会议地点：曲江国展中心,请全体党员准时参加</text>
   </view>
   <!-- 导航栏 -->
   <view class="nav container mb18">
     <view class="item">
-      <image class="icon" src="/images/headline.png"></image>
+      <image class="icon" src="/images/icon_news.png"></image>
       <text class="title">新闻中心</text>
     </view>
     <view class="item">
-      <image class="icon" src="/images/headline.png"></image>
+      <image class="icon" src="/images/icon_times.png"></image>
       <text class="title">时代先锋</text>
     </view>
     <view class="item">
-      <image class="icon" src="/images/headline.png"></image>
+      <image class="icon" src="/images/icon_study.png"></image>
       <text class="title">党员学习</text>
     </view>
     <view class="item">
-      <image class="icon" src="/images/headline.png"></image>
+      <image class="icon" src="/images/icon_manage.png"></image>
       <text class="title">党务管理</text>
     </view>
     <view class="item">
-      <image class="icon" src="/images/headline.png"></image>
+      <image class="icon" src="/images/icon_supervise.png"></image>
       <text class="title">党建监督</text>
     </view>
   </view>
   <!-- 新闻中心 -->
   <view class="section news mb18">
     <view class="title arrow-right">
+      <image class="bg" src="/images/index_title_bg.png"></image>
+      <view class="line"></view>
       <text>新闻中心</text>
     </view>
     <scroll-view scroll-x >
@@ -52,15 +54,15 @@
   <!-- 时代先锋 -->
   <view class="section times mb18">
     <view class="title arrow-right">
+      <image class="bg" src="/images/index_title_bg.png"></image>
+      <view class="line"></view>
       <text>时代先锋</text>
     </view>
-    <scroll-view scroll-x >
-      <view class="section_gap container">
-        <view class="times-item" wx:for="{{times}}" wx:key="*this">
-          <text class="news-title">{{item.title}}</text>
-          <image class="banner" wx:if="{{item.banner}}" src="{{item.banner}}"></image>
-        </view>
-      </view>
-    </scroll-view>
+    <swiper class="swiper">
+      <swiper-item class="times-item" wx:for="{{times}}" wx:key="*this">
+        <text class="news-title">{{item.title}}</text>
+        <image class="banner" wx:if="{{item.banner}}" src="{{item.banner}}"></image>
+      </swiper-item>
+    </swiper>
   </view>
 </view>

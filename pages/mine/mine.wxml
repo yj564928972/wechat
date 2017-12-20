@@ -2,7 +2,7 @@
 <view class="content">
   <!-- 用户信息 -->
   <view class="user-info mb18">
-    <image class="bg" src="https://dummyimage.com/375x220/fb3231"></image>
+    <image class="bg" src="/images/mine_bg.png"></image>
     <image class="avatar" src="{{avatar}}"></image>
     <text class="username">{{name}}</text>
     <text class="more">当前所在：{{address}}</text>
@@ -10,29 +10,29 @@
   <!-- 菜单栏 -->
   <view class="list-view mb18">
     <view class="item container">
-      <image class="icon" src="/images/mine.png"></image>
+      <image class="icon" src="/images/mine_icon1.png"></image>
       <text class="title arrow-right">党建消息</text>
     </view>
     <view class="item container">
-      <image class="icon" src="/images/mine.png"></image>
+      <image class="icon" src="/images/mine_icon2.png"></image>
       <text class="title arrow-right">党员信息</text>
     </view>
     <view class="item container">
-      <image class="icon" src="/images/mine.png"></image>
+      <image class="icon" src="/images/mine_icon3.png"></image>
       <text class="title arrow-right">个人荣誉</text>
     </view>
     <view class="item container">
-      <image class="icon" src="/images/mine.png"></image>
+      <image class="icon" src="/images/mine_icon4.png"></image>
       <text class="title arrow-right">课堂笔记</text>
     </view>
   </view>
   <view class="list-view mb18">
     <view class="item container">
-      <image class="icon" src="/images/mine.png"></image>
+      <image class="icon" src="/images/mine_icon5.png"></image>
       <text class="title arrow-right">党员关系记录</text>
     </view>
     <view class="item container">
-      <image class="icon" src="/images/mine.png"></image>
+      <image class="icon" src="/images/mine_icon6.png"></image>
       <text class="title arrow-right">党费缴纳记录</text>
     </view>
   </view>
